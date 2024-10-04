@@ -69,10 +69,10 @@ Rename the `.env.example` file to `.env` and add the following
 ```
 NODE_ENV=development
 PORT=5000
-MONGO_URI=<your mongodb uri>
-JWT_SECRET=<your_secret_jwt_secret_key>
-PAYPAL_CLIENT_ID=<your paypal client id> #Visit: https://developer.paypal.com/dashboard
-PAYPAL_SECRET_ID=<your paypal secret id>
+MONGO_URI=<your_mongodb_uri> #from MongoDB Atlas
+JWT_SECRET=<your_jwt_secret_key>
+PAYPAL_CLIENT_ID=<your_paypal_client_id> #Visit: https://developer.paypal.com/dashboard
+PAYPAL_APP)SECRET=<your_paypal_secret_id>
 PAGINATION_LIMIT = 8
 ```
 
