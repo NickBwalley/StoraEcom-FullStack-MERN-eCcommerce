@@ -67,11 +67,12 @@ This is version 2.0 of the app, which uses Redux Toolkit. The first version can 
 Rename the `.env.example` file to `.env` and add the following
 
 ```
-NODE_ENV = development
-PORT = 5000
-MONGO_URI = your mongodb uri
-JWT_SECRET = 'abc123'
-PAYPAL_CLIENT_ID = your paypal client id
+NODE_ENV=development
+PORT=5000
+MONGO_URI=<your mongodb uri>
+JWT_SECRET=<your_secret_jwt_secret_key>
+PAYPAL_CLIENT_ID=<your paypal client id> #Visit: https://developer.paypal.com/dashboard
+PAYPAL_SECRET_ID=<your paypal secret id>
 PAGINATION_LIMIT = 8
 ```
 
@@ -90,7 +91,7 @@ npm install
 ```
 
 # Run frontend (:3000) & backend (:5000)
-npm run dev
+npm run dev or npm start
 
 # Run backend only
 npm run server
