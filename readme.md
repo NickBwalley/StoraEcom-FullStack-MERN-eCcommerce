@@ -73,6 +73,7 @@ MONGO_URI=<your_mongodb_uri> #from MongoDB Atlas
 JWT_SECRET=<your_jwt_secret_key>
 PAYPAL_CLIENT_ID=<your_paypal_client_id> #Visit: https://developer.paypal.com/dashboard
 PAYPAL_APP)SECRET=<your_paypal_secret_id>
+PAYPAL_API_URL=https://sandbox.paypal.com
 PAGINATION_LIMIT = 8
 ```
 
